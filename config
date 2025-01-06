@@ -1,8 +1,16 @@
 theme = catppuccin-mocha
-theme = Dracula+
 font-family = BlexMono Nerd Font
 font-size = 13
 background-opacity = 0.75
+window-decoration = false
+window-padding-x = 0
+window-padding-y = 0
+window-padding-balance = true
+window-padding-color = background
+
+#config
+cursor-style=block
+shell-integration-features=no-cursor
 
 # Abertura e recarregamento de configurações
 keybind = ctrl+comma=open_config
