@@ -1,16 +1,19 @@
-theme = catppuccin-mocha
-font-family = BlexMono Nerd Font
+theme = "/home/joaodev/ghq/github.com/folke/tokyonight.nvim/extras/ghostty/tokyonight_night"
+font-family = BlexMonoNerdFont
 font-size = 13
 background-opacity = 0.75
-window-decoration = false
+title = " "
+window-decoration = true
+window-theme = ghostty
 window-padding-x = 0
 window-padding-y = 0
 window-padding-balance = true
-window-padding-color = background
+window-padding-color = background 
 
 #config
-cursor-style=block
-shell-integration-features=no-cursor
+cursor-style-blink = false
+cursor-style = block 
+shell-integration-features = no-cursor
 
 # Abertura e recarregamento de configurações
 keybind = ctrl+comma=open_config
